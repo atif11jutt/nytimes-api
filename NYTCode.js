@@ -70,7 +70,9 @@ function runQuery(numArticles, queryURL){
 					// Then display the remaining fields in the HTML (Section Name, Date, URL)
 					$("#articleWell-"+ articleCounter).append('<h5>Section: ' + NYTData.response.docs[i].section_name + "</h5>");
 					$("#articleWell-"+ articleCounter).append('<h5>' + NYTData.response.docs[i].pub_date + "</h5>");
-					$("#articleWell-"+ articleCounter).append("<a href='" + NYTData.response.docs[i].web_url + "'>" + NYTData.response.docs[i].web_url + "</a>");
+					$("#articleWell-"+ articleCounter).append('<img style="width:400px" src="https://static01.nyt.com/' + NYTData.response.docs[i].multimedia[8].url + '" alt="image">');
+					$("#articleWell-"+ articleCounter).append('<p>' + NYTData.response.docs[i].lead_paragraph + "</p>");
+					$("#articleWell-"+ articleCounter).append("<a target='_blank' href='" + NYTData.response.docs[i].web_url + "'>" + NYTData.response.docs[i].web_url + "</a>");
 
 					// Log the remaining fields to console as well
 					console.log(NYTData.response.docs[i].pub_date);
