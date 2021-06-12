@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-image: url("background.jpg");
+background-color : #b6e3ff;
+}
+
+#wrap {
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+margin-left:100px;
+margin-right:100px;
+padding-bottom: 0px;
+}
+
+#taAPIOutput
+{
+width: 200px;
+height: 50px;
+margin-left:100px;
+margin-right:100px;
+
+
+}
+nav {
+margin-left:100px;
+margin-right:100px;
+font-size:24px;
+font-style :Georgia;
+padding-top:25px;
+padding-bottom: 25px;
+ border:1.5px solid #b6a0a0;
+ background: #d4d0d0; 
+}
+
+
+
+.column {
+float: left;
+width: 20%;
+display: flex;
+position: absolute;
+margin-left:100px;
+margin-right:px;
+}
+
+
+a {
+text-align: center;
+  flex: 4;
+ word-spacing: 10px;
+font-style :Georgia;
+padding:2em;
+
+}
+
+
+h1{
+
+text-align: center ;
+font-weight:bold;
+background-color: white;
+font-style :Georgia;
+color:#999;
+font-size : 60px;
+padding-left:25px;
+padding-right: 30px;
+padding-top:100px;
+padding:2em;
+margin-left:100px;
+margin-right: 100px;
+border:0px solid #ccc;
+  text-shadow: 2px 2px #7d7474;
+}
+
+p{
+font-family: "Trebuchet MS";
+margin:30px;
+}
+
+h2{
+font-family: "Trebuchet MS";
+text-align:center;
+}
+
+
+
+
+#align1 p{
+text-align:center;
+
+}
+
+#align2 p{
+text-align:center;
+
+
+     
+}
+
+#align3 p{
+text-align:center;
+
+}
+
+
+
+section{
+ border:1.5px solid #b6a0a0;
+ background: white; 
+margin-top:20px;
+margin-left:20px;
+margin-right:20px;
+text-align:center;
+}
+
+.border{
+  
+
+}
